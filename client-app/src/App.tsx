@@ -12,7 +12,7 @@ class App extends Component {
 
   componentDidMount(){
 
-    axios.get('http://192.168.115.10:5000/api/values')
+    axios.get('http://192.168.115.11:5000/api/values')
       .then((response) => {
         //console.log(response);
         this.setState({

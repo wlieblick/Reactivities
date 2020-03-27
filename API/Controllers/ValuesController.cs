@@ -5,7 +5,6 @@ using Persistence;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-
 namespace DatingApp.API.Controllers
 {
     [Route("api/[controller]")]
